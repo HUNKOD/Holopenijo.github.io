@@ -161,9 +161,28 @@ h2{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg,rgb(12, 0, 122),rgb(75, 51, 212));
+    background: linear-gradient(45deg,#ff7a1c,#FF8C36);
 }
 .container .box:nth-child(7):after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#ff7a1c,#FF8C36);
+    filter: blur(40px);
+}
+.container .box:nth-child(8):before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,rgb(12, 0, 122),rgb(75, 51, 212));
+}
+.container .box:nth-child(8):after{
     content: '';
     position: absolute;
     top: 0;
